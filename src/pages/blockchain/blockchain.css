@@ -1,0 +1,78 @@
+.block-smart-scalable-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  column-gap: 4%;
+  padding: 0% 6%;
+}
+
+.block-smart-scalable-container div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4vh;
+  align-items: start;
+  justify-content: center;
+}
+
+.block-smart-scalable-container div h1
+ {
+  color: #0B6CB9;
+  font-size: 48px;
+  margin: 0%;
+  font-weight: 600;
+}
+
+.block-smart-scalable-container div h1 span,
+.block-custom-app-container h1 span,
+.block-services-container h2 span,
+.block-our-technologies-container h1 span,
+.block-our-usp-container h1 span {
+  color: transparent;
+  -webkit-text-stroke: 1px #0B6CB9;
+  text-stroke: 1px #0B6CB9;
+}
+
+.block-smart-scalable-container div p {
+  color: #6B6B6B;
+  margin: 0%;
+  font-size: 14px;
+  text-align: justify;
+}
+/* Tablet: stack horizontally laid out blocks vertically */
+@media (max-width: 1024px) {
+  .block-smart-scalable-container {
+    flex-direction: column;
+    row-gap: 4vh;
+  }
+
+  .block-smart-scalable-container div {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Mobile: tighter padding & smaller headings */
+@media (max-width: 768px) {
+  .block-smart-scalable-container {
+    padding: 0% 4%;
+  }
+
+  .block-smart-scalable-container div h1 {
+    font-size: 32px;
+  }
+
+  .block-smart-scalable-container div p {
+    font-size: 13px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .block-smart-scalable-container div h1 {
+    font-size: 28px;
+  }
+
+  .block-smart-scalable-container div p {
+    font-size: 12px;
+  }
+}

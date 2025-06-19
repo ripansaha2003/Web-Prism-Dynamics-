@@ -1,0 +1,278 @@
+/* .infobox1-container{
+  display: flex;
+  flex-direction: column;
+  padding: 2.5%;
+  border-radius: 1.2rem;
+}
+
+.infobox1-container h1{
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #13334C;
+  margin: 0%;
+  margin-bottom: 5%;
+}
+.infobox1-container img{
+  width: 350px;
+  height: 40vh;
+  border-radius: 3rem;
+  margin-top: auto;
+  align-self: center;
+}
+.infobox1-container p{
+  color: gray;
+  margin: 0%;
+  font-size: 1vw;
+  margin-bottom: 8%;
+}
+.infobox1-container button{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #13334C;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 0%;
+  margin-bottom: 8%;
+  margin-left: 1%;
+  cursor: pointer;
+}
+.infobox1-container h3{
+  font-size: 16px;
+  color: #13334C;
+  margin: 0%;
+  margin-bottom: 5%;
+  font-weight: 500;
+}
+
+.infobox1-title {
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #123456;
+}
+
+.infobox1-title .infobox1-subtext {
+  font-size: 1rem;  
+  font-weight: normal;
+  color: #555;
+}
+
+.infobox1-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5%;
+  border-radius: 1.2rem;
+}
+.infobox1-img{
+  padding-left: 18px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  padding-right: 18px;
+}
+.infobox1-container h1 {
+  font-size: 1.7vw;
+  font-weight: 500;
+  color: #13334C;
+  margin: 0 0 5% 0;
+}
+
+.infobox1-container img {
+  display: block;
+  width: 350px;
+  height: auto;
+  max-height: 45vh;
+  border-radius: 3rem;
+  margin-top: auto;
+  align-self: center;
+  object-fit: contain;
+}
+
+.infobox1-container p {
+  color: gray;
+  margin: 0 0 8% 0;
+  font-size: 1vw;
+}
+
+.infobox1-container button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #13334C;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 0;
+  margin: 0 0 8% 1%;
+  cursor: pointer;
+}
+
+.infobox1-container h3 {
+  font-size: 16px;
+  color: #13334C;
+  margin: 0 0 5% 0;
+  font-weight: 500;
+}
+
+
+
+@media (max-width: 1024px) {
+  .infobox1-container h1 {
+    font-size: 2.5vw;
+  }
+
+  .infobox1-container p {
+    font-size: 1.8vw;
+  }
+
+  .infobox1-container button {
+    font-size: 1.8vw;
+  }
+
+  .infobox1-container img {
+    width: 300px;
+    max-height: 40vh;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .infobox1-container {
+    padding: 6% 4%;
+  }
+
+  .infobox1-container h1 {
+    font-size: 6vw;
+  }
+
+  .infobox1-container p {
+    font-size: 4vw;
+  }
+
+  .infobox1-container button {
+    font-size: 4vw;
+  }
+
+  .infobox1-container img {
+    width: 100%;
+    max-height: none;
+    border-radius: 2rem;
+  }
+}
+
+ */
+/* ==============================
+   Base styles (Desktop)
+   ============================== */
+
+.infobox1-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5%;
+  border-radius: 1.25rem;
+  padding-bottom: 1.25rem; 
+}
+
+.infobox1-title {
+  font-size: 1.3vw;  /* main title size for large screens */
+  font-weight: 550;
+  color: #13334C;
+  margin: 0 0 5% 0;
+}
+
+.infobox1-title .infobox1-subtext {
+  font-size: 0.9vw;  /* smaller than main title */
+  font-weight: 400;
+  color: #555;
+}
+
+.infobox1-container p {
+  color: gray;
+  margin: 0 0 8% 0;
+  font-size: 1vw;
+}
+
+.infobox1-container button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #13334C;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 1vw;
+  padding: 0;
+  margin: 0 0 8% 1%;
+  cursor: pointer;
+}
+
+.infobox1-container img,
+.infobox1-img {
+  display: block;
+  width: 360px;
+  height: 270px;
+  max-height: 40vh;
+  border-radius: 3rem;
+  margin-top: auto;
+  align-self: center;
+  object-fit: contain;
+  padding: 16px;
+}
+
+/* ==============================
+   Tablet Responsive
+   ============================== */
+
+@media (max-width: 1024px) {
+  .infobox1-title {
+    font-size: 2.5vw;
+  }
+
+  .infobox1-title .infobox1-subtext {
+    font-size: 1.5vw;
+  }
+
+  .infobox1-container p {
+    font-size: 1.8vw;
+  }
+
+  .infobox1-container button {
+    font-size: 1.8vw;
+  }
+
+  .infobox1-container img,
+  .infobox1-img {
+    width: 300px;
+    max-height: 40vh;
+  }
+}
+
+/* ==============================
+   Mobile Responsive
+   ============================== */
+
+@media (max-width: 600px) {
+  .infobox1-container {
+    padding: 6% 4%;
+  }
+
+  .infobox1-title {
+    font-size: 6vw;
+  }
+
+  .infobox1-title .infobox1-subtext {
+    font-size: 3.5vw;
+  }
+
+  .infobox1-container p {
+    font-size: 4vw;
+  }
+
+  .infobox1-container button {
+    font-size: 4vw;
+  }
+
+  .infobox1-container img,
+  .infobox1-img {
+    width: 100%;
+    max-height: none;
+    border-radius: 2rem;
+  }
+}

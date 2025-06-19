@@ -1,0 +1,186 @@
+.infobox2-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem;
+  border: #E5E5E5 solid 2px;
+  width: 20.5vw;
+}
+
+.infobox2-container h3 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #13334C;
+  margin: 0%;
+  margin-bottom: 5%;
+  padding: 6% 3.5%;
+  padding-bottom: 0%;
+}
+
+.infobox2-container h2 {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #6B6B6B;
+  margin: 0%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: calc(1.2vw * 1.4 * 2);
+  padding: 0% 3.5%;
+}
+
+.infobox2-container p {
+  color: #6B6B6B;
+  margin: 0%;
+  font-size: 1vw;
+  padding: 0% 3.5%;
+}
+.infobox2-container p span{
+  color:#13334C;
+  font-weight: 600;
+  margin-left: 2%;
+}
+
+.infobox2-container button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #0690FD;
+  width: fit-content;
+  cursor: pointer;
+  color: #0690FD;
+  font-size: 1.2vw;
+  font-weight: 500;
+  position: absolute;
+  top: 8%;
+  left: 4.5%;
+  padding: 0%;
+}
+
+.infobox2-container div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 4%;
+}
+/* ==============================
+   Base styles (Desktop)
+   ============================== */
+
+.infobox2-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem;
+  border: #E5E5E5 solid 2px;
+  width: 26.5vw;
+  overflow: hidden; /* Ensures content stays inside rounded corners */
+  position: relative; /* Needed for absolute button positioning */
+}
+
+.infobox2-container h3 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #13334C;
+  margin: 0 0 5% 0;
+  padding: 6% 3.5% 0 3.5%;
+}
+
+.infobox2-container h2 {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #6B6B6B;
+  margin: 0 0 5% 0;
+  padding: 0 3.5%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  max-height: calc(1.4 * 1vw * 2);
+}
+
+.infobox2-container p {
+  color: #6B6B6B;
+  margin: 0;
+  font-size: 1vw;
+  padding: 0 3.5%;
+}
+
+.infobox2-container p span {
+  color: #13334C;
+  font-weight: 600;
+  margin-left: 2%;
+}
+
+.infobox2-container button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #0690FD;
+  width: fit-content;
+  cursor: pointer;
+  color: #0690FD;
+  font-size: 1.2vw;
+  font-weight: 500;
+  position: absolute;
+  top: 6%;
+  right: 4.5%;
+  padding: 0;
+}
+
+.infobox2-container div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+/* ==============================
+   Tablet Responsive
+   ============================== */
+
+@media (max-width: 1024px) {
+  .infobox2-container {
+    width: 45vw;
+  }
+
+  .infobox2-container h3 {
+    font-size: 2.2vw;
+  }
+
+  .infobox2-container h2,
+  .infobox2-container p {
+    font-size: 1.8vw;
+  }
+
+  .infobox2-container button {
+    font-size: 2vw;
+  }
+}
+
+/* ==============================
+   Mobile Responsive
+   ============================== */
+
+@media (max-width: 600px) {
+  .infobox2-container {
+    width: 90vw;
+  }
+
+  .infobox2-container h3 {
+    font-size: 6vw;
+    padding: 10% 5% 0 5%;
+  }
+
+  .infobox2-container h2,
+  .infobox2-container p {
+    font-size: 4vw;
+    padding: 0 5%;
+  }
+
+  .infobox2-container button {
+    font-size: 4vw;
+    top: 5%;
+    right: 5%;
+  }
+}

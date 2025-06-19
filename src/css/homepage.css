@@ -1,0 +1,243 @@
+.homepage-container{
+  padding: 0% 6%;
+}
+.homepage-why-choose-us{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.5%;
+  column-gap: 4%;
+}
+.homepage-why-choose-us-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.homepage-why-choose-us-container h1,.homepage-our-clients h1,.homepage-our-testimonial h1,.homepage-our-services-header,.homepage-technologies h1,.homepage-industries-header h1,.homepage-our-blogs h1{
+  font-size: 3.5vw;
+  color: #0B6CB9;
+  margin: 0%;
+  margin-bottom: 2%;
+}
+.homepage-why-choose-us-container h1 span,.homepage-our-clients h1 span,.homepage-our-testimonial h1 span,.homepage-our-services-header span,.homepage-technologies h1 span,.homepage-industries-header h1 span,.homepage-our-blogs h1 span{
+  color: transparent;
+  -webkit-text-stroke: 1px #0B6CB9;
+  text-stroke: 1px #0B6CB9;
+}
+.homepage-why-choose-us-container p{
+  color: gray;
+  margin: 0%;
+  font-size: 1vw;
+  margin-bottom: 2%;
+}
+.homepage-why-choose-us-container button{
+  background-color: #0690FD;
+  border: none;
+  color: white;
+  font-size: 1.2vw;
+  width: fit-content;
+  padding: 3% 6%;
+  border-radius: 2rem;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.homepage-why-choose-us-container img{
+  width: 100%;
+  border-radius: 1.5rem;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.homepage-special-square-container{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4%;
+}
+.homepage-special-square-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 4%;
+}
+.margin-top{
+  margin-top: 6%
+}
+
+
+.homepage-our-clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+}
+.homepage-our-testimonial{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.5%;
+}
+
+.homepage-our-services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: -7%;
+  margin-right: -7%;
+}
+.homepage-technologies{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.8%;
+}
+.homepage-technologies-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5%;
+}
+
+.homepage-industries{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.8%;
+}
+.homepage-industries-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 2%;
+}
+.homepage-industries-box{
+  position: relative;
+}
+.homepage-industries-box p{
+  margin: 0%;
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.homepage-industries-box img{
+  width: 100%;
+}
+.homepage-our-blogs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.5%;
+  margin-left: -7%;
+  margin-right: -7%;
+}
+
+
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .homepage-why-choose-us {
+    flex-direction: column;
+    row-gap: 5%;
+  }
+
+  .homepage-special-square-container {
+    flex-direction: column;
+    row-gap: 5%;
+  }
+
+  .homepage-technologies-container {
+    flex-wrap: wrap;
+    row-gap: 2%;
+  }
+
+  .homepage-industries-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2%;
+  }
+
+  .homepage-why-choose-us-container h1,
+  .homepage-our-clients h1,
+  .homepage-our-testimonial h1,
+  .homepage-our-services-header,
+  .homepage-technologies h1,
+  .homepage-industries-header h1,
+  .homepage-our-blogs h1 {
+    font-size: 5vw;
+  }
+
+  .homepage-why-choose-us-container p,
+  .homepage-industries-box p {
+    font-size: 2vw;
+  }
+
+  .homepage-why-choose-us-container button {
+    font-size: 2vw;
+    padding: 4% 8%;
+  }
+
+  .homepage-why-choose-us-container img {
+    height: auto;
+  }
+}
+
+/* For mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .homepage-container {
+    padding: 0% 4%;
+  }
+
+  .homepage-why-choose-us {
+    flex-direction: column;
+    row-gap: 6%;
+  }
+
+  .homepage-special-square-container {
+    flex-direction: column;
+    row-gap: 6%;
+  }
+
+  .homepage-technologies-container {
+    flex-direction: column;
+    row-gap: 5%;
+  }
+
+  .homepage-industries-container {
+    grid-template-columns: 1fr;
+    row-gap: 4%;
+  }
+
+  .homepage-why-choose-us-container h1,
+  .homepage-our-clients h1,
+  .homepage-our-testimonial h1,
+  .homepage-our-services-header,
+  .homepage-technologies h1,
+  .homepage-industries-header h1,
+  .homepage-our-blogs h1 {
+    font-size: 8vw;
+  }
+
+  .homepage-why-choose-us-container p,
+  .homepage-industries-box p {
+    font-size: 4vw;
+  }
+
+  .homepage-why-choose-us-container button {
+    font-size: 4vw;
+    padding: 6% 10%;
+  }
+
+  .homepage-why-choose-us-container img {
+    height: auto;
+  }
+}

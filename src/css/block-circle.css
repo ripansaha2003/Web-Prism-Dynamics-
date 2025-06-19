@@ -1,0 +1,54 @@
+/* BlockchainWeb3Technologies.css */
+
+.bwt-section {
+  overflow-x: hidden;
+}
+
+.bwt-tech-circles {
+  flex-wrap: wrap;
+}
+
+.bwt-circle {
+  margin: 20px;
+}
+
+/* Responsive line hiding if needed */
+@media (max-width: 768px) {
+  .bwt-title {
+    font-size: 6vw !important; /* override inline font-size for smaller screens */
+  }
+
+  .bwt-tech-circles {
+    gap: 30px;
+  }
+
+  .bwt-circle {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .bwt-circle img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .bwt-line {
+    display: none; /* hide line on mobile if it breaks */
+  }
+}
+
+@media (max-width: 480px) {
+  .bwt-title {
+    font-size: 8vw !important;
+  }
+
+  .bwt-circle {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .bwt-circle img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}

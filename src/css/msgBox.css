@@ -1,0 +1,24 @@
+.special-box1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  border-bottom: 0.095rem dashed #0B6CB9;
+  padding-bottom: 2%;
+}
+.special-box1-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2%;
+}
+.special-box1-header h2{
+  margin: 0%;
+  font-size: 18px;
+  font-size: 500;
+  color: #13334C;
+}
+.special-box1 p{
+  margin: 0%;
+  font-size: 14px;
+  color: #6B6B6B;
+}

@@ -1,0 +1,99 @@
+.SpecialSquare2-container{
+  border: 3px solid black;
+  width: 30vw;
+  height: 40vh;
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SpecialSquare2-bar1,.SpecialSquare2-bar2{
+  position: absolute;
+  width: 0.2vw;
+  height: 11vh;
+  background-color: white;
+}
+.SpecialSquare2-bar1{
+  top: 12%;
+  left: -0.7%;
+}
+.SpecialSquare2-bar2{
+  bottom: 12%;
+  right: -0.7%;
+}
+
+.SpecialSquare2-diamond1,.SpecialSquare2-diamond2,.SpecialSquare2-diamond3,.SpecialSquare2-diamond4{
+  position: absolute;
+  width: 0.5vw;
+  aspect-ratio: 1/1;
+  background-color: black;
+  transform: rotate(45deg);
+}
+.SpecialSquare2-diamond1{
+  top: 12%;
+  left: -1.3%;
+}
+.SpecialSquare2-diamond2{
+  left: -1.3%;
+  top: 36%;
+}
+.SpecialSquare2-diamond3{
+  bottom: 12%;
+  right: -1.4%;
+}
+.SpecialSquare2-diamond4{
+  right: -1.4%;
+  bottom: 37%;
+}
+.SpecialSquare2-quotes2,.SpecialSquare2-quotes1{
+  font-size: 3vw;
+  color: black;
+  position: absolute;
+}
+.SpecialSquare2-quotes1{
+  left: -3%;
+  top: 20%;
+}
+.SpecialSquare2-quotes2{
+  right: -3%;
+  bottom: 10%;
+}
+.SpecialSquare2-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.SpecialSquare2-content img{
+  width: 6vw;
+  height: 12vh;
+  border-radius: 10rem;
+  border: 3px solid black;
+}
+.SpecialSquare2-text{
+  margin-left: 5%;
+  text-wrap: nowrap;
+}
+.SpecialSquare2-text h1{
+  font-size: 1.6vw;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+  margin-bottom: 5%;
+  color: black;
+}
+.SpecialSquare2-text p{
+  font-size: 1vw;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 300;
+}
+.SpecialSquare2-paragraph{
+  font-size: 0.95vw;
+  padding: 0% 12%;
+  justify-self: center;
+  text-align: center;
+  color: gray;
+}
